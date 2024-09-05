@@ -1,5 +1,4 @@
 import React from "react";
-import Cards from "../../Cards/Cards";
 import './Container.css'
 import Card from "../../Cards/Card";
 import Data_cards from "C:/Users/L13 YOGA/OneDrive/Bureau/mes projets/projet React/icomers-web/src/data/Data.js";

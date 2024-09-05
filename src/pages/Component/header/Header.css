@@ -1,0 +1,91 @@
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.navbar svg{
+  height:30px;
+  width: 30px;
+}
+.block_C {
+    justify-content: space-between;
+    display: flex;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    width: 95rem;
+}
+.block_L {
+ text-align: center;
+ width: 5rem;
+}
+.block_R {
+  text-align: center;
+  width: 5rem;
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.center a {
+  text-decoration: none;
+  color: black;
+   margin: 1rem 1rem 1rem 1rem;
+}
+.profile {
+ margin: 1rem;
+}
+.profile svg{
+  margin-top: 18px;
+}
+ 
+
+.search {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+  
+  /* Search input styles */
+  .search-input {
+    /* border: none; */
+    padding: 12px;
+    outline: none;
+    width: 200px;
+    height: 3rem;
+    border-radius: 25px;
+    /* transition: width 0.4s ease-in-out; */
+   
+    color: black; /* Couleur du texte dans le champ de recherche */
+    margin-left: 1rem;
+  }
+  
+  .search-input::placeholder {
+    color: gray /* Couleur du texte du placeholder */
+  }
+  
+  .search-input:focus {
+    width: 300px;
+  }
+  
+  /* Search button styles */
+  .search-button {
+    background-color: var(--color-dark); /* Couleur d'arrière-plan du bouton */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+  }
+  
+  /* Search icon styles */
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    color: gray; /* Couleur de l'icône SVG */
+  }

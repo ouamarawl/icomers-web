@@ -31,18 +31,18 @@ const Data_cards = [
   { category: "ACCESSORIES", stock: "9 produits", image: ACCESSORIES },
 ];
  const Data_cards_promo = [
-  { promotion:"-29%" ,discription: "Cosmos Black & white (Véritable Cuir)  Promotion, Sneakers ", icon: "  ", prix: "5500د.ج3900  => د.ج ", images: black },
-  { promotion:"-15%" ,discription: "Cosmos VGris – (Cuir Intérieur) Promotion, Sneakers", icon: "", prix: "5500د.ج3900  => د.ج", images: vgris },
-  { promotion:"-15%" ,discription: "Cosmos Shark (Confort +)Promotion, Sneakers", icon: "", prix: "5500د.ج3900  => د.ج ", images: shark },
-  { promotion:"-15%" ,discription: "Sneakers 300 (Confort +)Été 2024, Promotion, Sneakers", icon: " ", prix: "5500د.ج3900  => د.ج ", images: sneakers },
-  { promotion:"-25%" ,discription: "Cosmos X – Gris (Édition Prémium)Été 2024, Promotion, Sneakers", icon: "", prix: "5500د.ج3900  => د.ج ", images: xgris },
-  { promotion:"-16%" ,discription: "Privé Slips on (En Véritable cuir)Promotion, Sneakers", icon: "", prix: "5500د.ج3900  => د.ج ", images: slips },
-  { promotion:"-25%" ,discription: "Cosmos X – Vert (Édition Prémium)Été 2024, Promotion, Sneakers", icon: "", prix: "5500د.ج3900  => د.ج ", images: x_vert },
-  { promotion:"-15%" ,discription: "Vintage Vert en Croûte de Daim Promotion, Sneakers", icon: "", prix: "5500د.ج3900  => د.ج ", images: vintage_vert },
-  { promotion:"-25%" ,discription: "Vintage Vert en Croûte de Daim Promotion, Sneakers", icon: "", prix: "5500د.ج3900  => د.ج ", images: blacky },
-  { promotion:"-25%" ,discription: "Cosmos Carbon 2.0 (en cuir) Promotion, Sneakers", icon: "", prix: "5500د.ج3900  => د.ج ", images: carbon },
-  { promotion:"-15%" ,discription: " Mocassin Horizon – Tabac Classiques, Été 2024, Promotion ", icon: "5500د.ج3900  => د.ج ", prix: "", images: horizon },
-  { promotion:"-15%" ,discription: "Mocassin Horizon Noir (En véritable cuir) Classiques, Été 2024, Promotion", icon: "", prix: "5500د.ج3900  => د.ج ", images: horizon_noir },
+  { promotion:"-29%" ,discription: "Cosmos Black & white (Véritable Cuir)  Promotion, Sneakers ", icon: "  ", prix: "5500د.ج3900  <= د.ج ", images: black },
+  { promotion:"-15%" ,discription: "Cosmos VGris – (Cuir Intérieur) Promotion, Sneakers", icon: "", prix: "5500د.ج3900  <= د.ج", images: vgris },
+  { promotion:"-15%" ,discription: "Cosmos Shark (Confort +)Promotion, Sneakers", icon: "", prix: "5500د.ج3900  <= د.ج ", images: shark },
+  { promotion:"-15%" ,discription: "Sneakers 300 (Confort +)Été 2024, Promotion, Sneakers", icon: " ", prix: "5500د.ج3900  <= د.ج ", images: sneakers },
+  { promotion:"-25%" ,discription: "Cosmos X – Gris (Édition Prémium)Été 2024, Promotion, Sneakers", icon: "", prix: "5500د.ج3900  <= د.ج ", images: xgris },
+  { promotion:"-16%" ,discription: "Privé Slips on (En Véritable cuir)Promotion, Sneakers", icon: "", prix: "5500د.ج3900  <= د.ج ", images: slips },
+  { promotion:"-25%" ,discription: "Cosmos X – Vert (Édition Prémium)Été 2024, Promotion, Sneakers", icon: "", prix: "5500د.ج3900  <= د.ج ", images: x_vert },
+  { promotion:"-15%" ,discription: "Vintage Vert en Croûte de Daim Promotion, Sneakers", icon: "", prix: "5500د.ج3900  <= د.ج ", images: vintage_vert },
+  { promotion:"-25%" ,discription: "Vintage Vert en Croûte de Daim Promotion, Sneakers", icon: "", prix: "5500د.ج3900  <= د.ج ", images: blacky },
+  { promotion:"-25%" ,discription: "Cosmos Carbon 2.0 (en cuir) Promotion, Sneakers", icon: "", prix: "5500د.ج3900  <= د.ج ", images: carbon },
+  { promotion:"-15%" ,discription: " Mocassin Horizon – Tabac Classiques, Été 2024, Promotion ", icon: "5500د.ج3900  <= د.ج ", prix: "", images: horizon },
+  { promotion:"-15%" ,discription: "Mocassin Horizon Noir (En véritable cuir) Classiques, Été 2024, Promotion", icon: "", prix: "5500د.ج3900  <= د.ج ", images: horizon_noir },
 ];
 export default Data_cards;
 export { Data_cards_promo };
