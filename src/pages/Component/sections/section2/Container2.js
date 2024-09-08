@@ -19,8 +19,8 @@ function Container2(props) {
         <img src={insta4} style={ {height:'20rem', width: '20rem', borderRadius : '10px', } } alt=''/>
       </div>
         <a href='/' >
-       <button style= { {height :' 3rem', width :'12rem', backgroundColor :'white', border: ' 1px solid gray' } }>
-        Visiter Notre Instagram
+       <button style= { {height :' 3rem', width :'15rem', backgroundColor :'white', border: ' 1px solid gray' } }>
+       <p style={{fontSize: ' 22px', color:'black', marginTop :'5px'}}> Visiter Notre Instagram</p>
        </button>
         </a>
     </div>

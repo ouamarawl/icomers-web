@@ -19,6 +19,7 @@ function Container1(props) {
             discription={currentValue.discription}
             images={currentValue.images}
             prix={currentValue.prix}
+            style={currentValue.style}
           />
         ))}
       </div>

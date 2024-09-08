@@ -31,13 +31,13 @@ function Header() {
         <div className="center">
           <Link to= '/'>ACCUEIL</Link>
           <Link to= 'boutique'>BOUTIQUE</Link>
-           <h1>COSMOS</h1>
+           <h1>LOGO</h1>
           <Link to= 'qui_somme_nous_?'>QUI SOMME NOUS ? </Link>
           <Link to= 'contact'>CONTACT</Link>
           <Link to= 'suivre_mon_colis'>SUIVRE MON COLIS</Link>
         </div>
         <div className="profile" >
-          <CgProfile />
+         <Link to={'signup'} > <CgProfile />  </Link> 
         </div>
       </div>
       <div className="block_R">

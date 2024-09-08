@@ -1,0 +1,21 @@
+.footer {
+   
+}
+.footer svg {
+height: 5rem;
+width: 5rem;
+}
+.block_sup {
+    margin-left: 12rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border-bottom: 1px solid black; */
+}
+.nos_liens a {
+    text-decoration: none;
+    color: black;
+}
+.categories a {
+    text-decoration: none;
+    color: black;
+}

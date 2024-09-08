@@ -40,7 +40,10 @@
 .profile svg{
   margin-top: 18px;
 }
- 
+.profile a {
+  text-decoration: none;
+  color: black;
+} 
 
 .search {
     display: flex;
