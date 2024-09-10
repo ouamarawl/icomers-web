@@ -1,0 +1,15 @@
+.contact {
+    display: flex;
+}
+.Questions {
+    width: 45rem;
+    border-right: 1px solid rgb(216, 212, 212);
+    margin-left: 13rem;
+    padding: 1rem;
+}
+.contacter_nous {
+    width: 45rem;
+   
+  
+    padding: 1rem;
+}

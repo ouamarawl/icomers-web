@@ -17,9 +17,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Accueil />} />
+          <Route path="/accueil" element={<Accueil />} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/boutique" element={<Boutique/>} />
-          <Route path="/qui_somm_nous" element={<Qui_somme_nous/>} />
+          <Route path="/qui_somme_nous_?" element={<Qui_somme_nous/>} />
           <Route path="/suivre_mon_colis" element={<Suivre_mon_colis/>} />
           <Route path='/signup' element={<Signup/>}/>
           <Route path='/login' element={<Connect/>}/>

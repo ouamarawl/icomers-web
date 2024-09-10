@@ -1,0 +1,25 @@
+.boutique {
+    text-align: center;  
+    background-color: black;
+    margin-top: -80px;
+    padding-top: 75px;
+}
+
+.logo_boutique {
+    display: flex;
+    margin-left: 15rem;
+}
+.logo_boutique a {
+    text-decoration: none;
+    margin: 2rem;
+    text-align: left;
+}
+.boutique_produits {
+    display: grid;
+    grid-template-columns: repeat(3, 24rem);
+    text-align: center;
+    margin-left: 17rem;
+}
+.boutique_produits a{
+  margin: 1px;
+}

@@ -1,6 +1,10 @@
 .container_card {
-    display: block;
+    
     text-align: center;
+    /* flex: 1 25% ; */
+}
+.container_card :hover {
+    transform: scale(1.1);
 }
 .promotion p {
     text-align: center;
@@ -11,3 +15,8 @@
     text-decoration:none ;
     color: black;
 }
+.container_card_promo a {
+    text-decoration:none ;
+    color: black;
+}
+

@@ -1,0 +1,27 @@
+.qui_somme_nous {
+    text-align: center;
+    padding-left: 10rem ;
+    padding-right: 10rem;
+}
+.qui_somme_nous h1 {
+    font-size: 20px;
+    color: gray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.qui_somme_nous p {
+    font-size: 20px;
+    color: gray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+video {
+    height: 40rem;
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+    /* display: flex;
+    border: none;
+    background-color: #000; */
+    margin-bottom: 5rem;
+}

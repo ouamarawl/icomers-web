@@ -36,7 +36,7 @@ import rio from "../data/assets/image/rio.webp";
 
 const Data_cards = [
   { category: "SNEAKERS", stock: "33 produits", image: SNEAKERS },
-  { category: "SANDALS", stock: "12 produits", image: SANDALS},
+  { category: "SANDALS", stock: "12 produits", image: SANDALS },
   { category: "PROMOTION", stock: "25 produits", image: promo },
   { category: "FEMME", stock: "6 produits", image: femme },
   { category: "ETE 2024", stock: "43 produits", image: ETE_2024 },
@@ -546,5 +546,25 @@ const Data_cards_promo = [
   },
 ];
 
+const Data_cards_Boutique = [
+  { nbr_produit: "9 produits", category: "ACCESOIRES" },
+  { nbr_produit: "21 produits", category: "AUTOMNE 2024" },
+  { nbr_produit: "25 produits", category: "PROMOTION" },
+  { nbr_produit: "12 produits", category: "SANDALE" },
+  { nbr_produit: "38 produits", category: "SEAKERS" },
+  { nbr_produit: "5 produits", category: "BOOTS" },
+  { nbr_produit: "6 produits", category: "FEMME" },
+  { nbr_produit: "14 produits", category: "CLASSIQUES" },
+];
+const Data_questions = [
+  {questions:"D'où proviennent les chaussures en cuir de votre boutique en ligne ?" , reponse:"Toutes nos chaussures en cuir sont fabriquées en Algérie, avec du cuir véritable de haute qualité, mettant en valeur l'artisanat local."},
+  {questions:"	Comment puis-je passer une commande sur votre site ?" , reponse:"Pour commander, sélectionnez la paire de chaussures désirée, choisissez la taille, puis suivez les étapes de paiement sécurisé sur notre site."},
+  {questions:"	Offrez-vous des promotions ou des remises sur vos chaussures ?							" , reponse:"Oui, nous proposons régulièrement des promotions spéciales. Assurez vous d'être abonné(e) a nous sur les réseaux pour être informé(e) des offres exclusives ou bien consulter notre rebrique 'les bonnes affaires' disponible sur la page d'accueil."},
+  {questions:"	Comment puis-je contacter votre service clientèle ?	" , reponse:"Vous pouvez nous contacter via notre formulaire de contact sur le site ou sur notre page officiel cosmos_algerie. Nous sommes là pour répondre à toutes vos questions."},
+  {questions:"Dans quelles régions proposez-vous la livraison express ?" , reponse:"Nous proposons désormais notre service de livraison express dans toutes les 58 wilayas d'Algérie dans un délai de 24 a 72h tout dépend de votre emplacement."},
+];
+
 export default Data_cards;
 export { Data_cards_promo };
+export { Data_cards_Boutique };
+export { Data_questions };

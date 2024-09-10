@@ -4,6 +4,10 @@
     border-bottom: 1px solid gray;
     text-align: center;
     margin-bottom: 5rem;
+    /* position: fixed;
+    background-color: white;
+    z-index: 1000;  */
+   
 }
 .navbar svg{
   height:30px;

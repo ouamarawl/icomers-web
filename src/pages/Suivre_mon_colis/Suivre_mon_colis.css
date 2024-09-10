@@ -1,0 +1,93 @@
+.logo {
+    text-align: center;  
+    background-color: black;
+    margin-top: -80px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+.explication p {
+   font-size: 20px;
+   text-Align:center;
+   margin:2rem;
+}
+.block_reclamation {
+    border:1px solid black ;
+    height: 28rem ;
+    width: 60rem;
+    border-radius: 5px;
+    margin-left: 22rem;
+    display: flex;
+}
+.securité {
+    border:1px solid black ;
+    height: 5rem ;
+    width: 20rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-left:10px ;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.securité p {
+    font-family: Roboto, helvetica, arial, sans-serif;
+    font-size: 19px;
+}
+.securité img {
+    height:3rem ;
+    width: 3rem;
+}
+.formulaire {
+
+    border:1px solid black ;
+    height: 24rem ;
+    width: 30rem;
+    border-radius: 5px;
+    margin: 1rem;
+    
+    
+    /* display: flex; */
+
+}
+
+.block1 {
+   padding-left: 2rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid gray;
+    
+}
+.block2 {
+   padding-left: 2rem;
+    
+}
+form {
+   padding-bottom: 2rem;
+    border-radius: 5px;
+}
+.block3 {
+    height: 8rem;
+    width: 30rem;
+    margin-top: -15px;
+    padding-top: 18px;
+   padding-left: 2rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    
+}
+.block3 button {
+  background-color: #0d6efd;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px solid;
+}
+.remarque {
+    margin: 1rem;
+}
+.remarque li a {
+text-decoration: none;
+color: red;
+}

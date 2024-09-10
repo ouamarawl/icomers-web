@@ -4,7 +4,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { FiMessageCircle } from "react-icons/fi";
 import { GiTakeMyMoney } from "react-icons/gi";
 import { Link } from "react-router-dom";
-import yalidine from "C:/Users/L13 YOGA/OneDrive/Bureau/mes projets/projet React/icomers-web/src/data/assets/svg/Sans-titre-41.webp";
+import yalidine from "../../../data/assets/icons/Sans-titre-41.webp";
 function Footer() {
   return (
     <div className="footer">
@@ -36,7 +36,7 @@ function Footer() {
           </div>
         </div>
         <div className="réseau" style={{margin:'3rem'}}>
-          <h1 style={{ fontSize: "25px" }}>Logo</h1>
+          <h1 style={{ fontSize: "25px" }}>LOGO</h1>
           <p style={{ fontSize: "18px", color: "gray" }}>Nos réseaux :</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
