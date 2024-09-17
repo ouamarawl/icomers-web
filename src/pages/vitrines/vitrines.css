@@ -1,6 +1,11 @@
 .container_vitrine {
     display: flex;
     justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.achats {
+    margin-top: 5rem;
 }
 .lien_ver a{
   text-decoration: none;

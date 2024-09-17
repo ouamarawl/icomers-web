@@ -6,7 +6,7 @@ body {
 .carousel-container {
   position: relative;
   max-width: 800px;
-  margin: auto;
+  margin-top: -5rem;
   overflow: hidden;
 }
 
@@ -14,7 +14,10 @@ body {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
-
+.carousel img {
+  height: 40rem;
+  width: 12rem;
+}
 .carousel-slide {
   min-width: 100%;
   box-sizing: border-box;
@@ -63,3 +66,7 @@ body {
 .dot.active {
   background-color: #333;
 }
+/* .carousel-dots image {
+  height: 50rem ;
+  width:50rem ;
+} */

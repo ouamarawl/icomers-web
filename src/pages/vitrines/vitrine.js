@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import "./vitrines.css"; 
 import { FaRegHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import { Carousel } from "@material-tailwind/react";
-import old_money_maron from "../../data/assets/image/Old_mony_maron.webp";
-import old_money_bleu from "../../data/assets/image/old_mony_bleu.webp";
-import old_mony_beige from "../../data/assets/image/old_mony_beige.webp";
+
 import Carousel from "../Component/carousel/Carousel";
 
 
