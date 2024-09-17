@@ -9,6 +9,7 @@ import Suivre_mon_colis from "./pages/Suivre_mon_colis/Suivre_mon_colis";
 import Connect from "./pages/Component/registre/login/Login";
 import Signup from "./pages/Component/registre/signup/Signup";
 import Footer from "./pages/Component/Footer/Footer";
+import Vitrines from "./pages/vitrines/vitrine";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
           <Route path="/suivre_mon_colis" element={<Suivre_mon_colis/>} />
           <Route path='/signup' element={<Signup/>}/>
           <Route path='/login' element={<Connect/>}/>
+          <Route path='/vitrines' element={<Vitrines/>}/>
         </Routes>
         <Footer/>
       </Router>

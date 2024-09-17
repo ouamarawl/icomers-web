@@ -1,0 +1,38 @@
+.container_vitrine {
+    display: flex;
+    justify-content: space-between;
+}
+.lien_ver a{
+  text-decoration: none;
+  color: gray;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bouttons_quontité {
+    display: flex;
+}
+.bouttons_quontité button {
+   background-color: white;
+  height:50px ;
+  width: 25px;
+   
+}
+#moins {
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+#plus {
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+.link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+}
+.link svg {
+    height:25px;
+    width: 25px;
+    margin-top: 2px;
+}
