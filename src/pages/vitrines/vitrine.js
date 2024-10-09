@@ -2,21 +2,25 @@ import React, { useState } from "react";
 import "./vitrines.css"; 
 import { FaRegHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import { useEffect } from "react";
 import Carousel from "../Component/carousel/Carousel";
 
 
 
 
-
 function Vitrines() {
-    const [quantite, setQuantite] = useState(1);
 
+  const [quantite, setQuantite] = useState(1);
+  let [Prix, SetPrix] = useState(4600);
+  
+  useEffect(() => {
+    // Met à jour le prix total lorsque la quantité change
+    SetPrix(4600 * quantite);
+  }, [quantite, 4600])
   const augmenterQuantite = () => setQuantite(quantite + 1);
   const diminuerQuantite = () => {
     if (quantite > 1) setQuantite(quantite - 1);
   };
-
 
   return (
     <div className="container_vitrine" >
@@ -41,7 +45,7 @@ function Vitrines() {
           <p
             style={{ color: "maroon", fontSize: "2rem", marginBottom: "2rem" }}
           >
-            4600د.ج
+            {Prix} د.ج
           </p>
         </div>
         <div className="pointure" style={{ display: "flex" }}>

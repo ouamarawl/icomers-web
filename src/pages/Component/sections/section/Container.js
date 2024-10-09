@@ -1,7 +1,7 @@
 import React from "react";
 import './Container.css'
-import Card from "../../Cards/Card";
 import Data_cards from "C:/Users/L13 YOGA/OneDrive/Bureau/mes projets/projet React/icomers-web/src/data/Data.js";
+import Card_category from "../../Cards/Card_gategory";
 function Container(props) {
   return (
     <div className="container">
@@ -11,7 +11,7 @@ function Container(props) {
         </div>
         <div className="cards">
         {Data_cards.map((  curentvalue ,index) => 
-        <Card
+        <Card_category
           key={index}
           category={curentvalue.category}
           stock={curentvalue.stock}

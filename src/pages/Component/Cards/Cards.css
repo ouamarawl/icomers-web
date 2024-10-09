@@ -1,9 +1,9 @@
-.container_card {
+.container_card_category {
     
     text-align: center;
     /* flex: 1 25% ; */
 }
-.container_card :hover {
+.container_card_category :hover {
     transform: scale(1.1);
 }
 .promotion p {
@@ -11,11 +11,11 @@
     color: white;
    
 }
-.container_card a {
+.container_card_category a {
     text-decoration:none ;
     color: black;
 }
-.container_card_promo a {
+.container_card_produits a {
     text-decoration:none ;
     color: black;
 }

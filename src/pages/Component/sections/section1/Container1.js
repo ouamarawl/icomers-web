@@ -1,7 +1,7 @@
 import React from "react";
 import "./Container.css";
 import { Data_cards_promo } from "C:/Users/L13 YOGA/OneDrive/Bureau/mes projets/projet React/icomers-web/src/data/Data.js";
-import Card_promo from "../../Cards/Card_promo";
+import Card_produits from "../../Cards/Card_produits";
 
 function Container1(props) {
   return (
@@ -12,10 +12,9 @@ function Container1(props) {
       </div>
       <div className="cards">
         {Data_cards_promo.map((currentValue, index) => (
-          <Card_promo
+          <Card_produits
             key={index}
             promotion={currentValue.promotion}
-            icons={currentValue.icons}
             discription={currentValue.discription}
             images={currentValue.images}
             prix={currentValue.prix}

@@ -3,7 +3,7 @@ import "./Boutique.css";
 import Cards_boutique from "./Cards_boutique";
 import { Data_cards_Boutique } from "../../data/Data";
 import { Data_cards_promo } from "C:/Users/L13 YOGA/OneDrive/Bureau/mes projets/projet React/icomers-web/src/data/Data.js";
-import Card_promo from "../Component/Cards/Card_promo";
+import Card_produits from "../Component/Cards/Card_produits";
 
 function Boutique() {
   return (
@@ -22,10 +22,9 @@ function Boutique() {
       </div>
       <div className="boutique_produits">
         {Data_cards_promo.map((currentValue, index) => (
-          <Card_promo
+          <Card_produits
             key={index}
             promotion={currentValue.promotion}
-            icons={currentValue.icons}
             discription={currentValue.discription}
             images={currentValue.images}
             prix={currentValue.prix}
