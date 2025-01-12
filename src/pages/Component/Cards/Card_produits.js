@@ -3,6 +3,10 @@ import './Cards.css';
 import { Link } from 'react-router-dom';
 
 function ContainerCardProduits(props) {
+  
+  
+ // Export de la variable id_produit
+
   const [prix, setPrix] = useState(props.prix);
 
   // Mise à jour du prix après la promotion
@@ -24,7 +28,7 @@ function ContainerCardProduits(props) {
           alt='chaussure'
           style={{ borderRadius: '15px', height: '20rem', width: '19rem', background: 'transparent' }}
         />
-        <p style={{ color: 'black' }}> {props.discription} </p>
+        <p style={{ color: 'black' }}> {props.discription}</p>
         <p style={{ color: 'gray' }}>{prix} د.ج</p>
       </Link>
     </div>

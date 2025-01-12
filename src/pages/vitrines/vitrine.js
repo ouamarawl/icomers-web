@@ -40,7 +40,7 @@ function Vitrines() {
               marginBottom: "5px",
             }}
           >
-            Nom De L'article
+            discription ou nom De L'article
           </h1>
           <p
             style={{ color: "maroon", fontSize: "2rem", marginBottom: "2rem" }}

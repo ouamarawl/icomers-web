@@ -1,8 +1,7 @@
 import React from "react";
 import "./Boutique.css";
 import Cards_boutique from "./Cards_boutique";
-import { Data_cards_Boutique } from "../../data/Data";
-import { Data_cards_promo } from "C:/Users/L13 YOGA/OneDrive/Bureau/mes projets/projet React/icomers-web/src/data/Data.js";
+import { data_base} from "../../data/Data";
 import Card_produits from "../Component/Cards/Card_produits";
 
 function Boutique() {
@@ -11,7 +10,7 @@ function Boutique() {
       <div className="boutique">
         <h1 style={{ color: "white", fontSize: "90px" }}>Boutique</h1>
         <div className="logo_boutique">
-          {Data_cards_Boutique.map((currentvalue, index) => (
+          {data_base.Data_info_Boutique.map((currentvalue, index) => (
             <Cards_boutique
               key={index}
               category={currentvalue.category}
@@ -21,9 +20,10 @@ function Boutique() {
         </div>
       </div>
       <div className="boutique_produits">
-        {Data_cards_promo.map((currentValue, index) => (
+        {data_base.Data_cards_produit.map((currentValue, index) => (
           <Card_produits
             key={index}
+            id={currentValue.id}
             promotion={currentValue.promotion}
             discription={currentValue.discription}
             images={currentValue.images}

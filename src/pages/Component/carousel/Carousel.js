@@ -1,18 +1,15 @@
-import './Carousel.css'
+import './Carousel.css';
 import React, { useState, useEffect } from 'react';
-import old_money_maron from "../../../data/assets/image/Old_mony_maron.webp";
-import old_money_bleu from "../../../data/assets/image/old_mony_bleu.webp";
-import old_mony_beige from "../../../data/assets/image/old_mony_beige.webp";
+import { data_base } from '../../../data/Data'; // Importer la base de données
 
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const slides = [
-    old_money_maron,
-    old_money_bleu,
-    old_mony_beige
-  ];
-  
+  // Utilisation de la boucle pour extraire les images
+  let slides = [];
+  for (let i = 1; i < data_base.Data_cards_produit.length-20; i++) {
+    slides.push(data_base.Data_cards_produit[i].images); // Ajouter chaque image au tableau slides
+  }
 
   const showSlide = (index) => {
     if (index >= slides.length) {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import { Data_questions } from "../../data/Data";
+import { data_base} from "../../data/Data";
 import Questions from "./Component_contact/Questions";
 
 function Contact() {
@@ -12,7 +12,7 @@ function Contact() {
           <h1 style={{ fontSize: "35px" }}>Les questions les plus poser</h1>
           <hr />
         </div>
-        {Data_questions.map((currentvalue, index) => (
+        {data_base.Data_questions.map((currentvalue, index) => (
           <Questions
             key={index}
             questions={currentvalue.questions}
